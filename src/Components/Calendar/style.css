@@ -1,0 +1,209 @@
+.calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr{
+	padding:10px;
+	margin:0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.calendar{
+	background-color: azure;
+	border-spacing: 0;
+	border-collapse: collapse;
+	width:100%;
+}
+.blackiconcolorIcon{
+	color:#E6EAEE;
+}
+.calendar-header{
+	font-size:1.6em;
+	background-color: #0B3157;
+}
+.calendar-header td{
+	border-spacing: 0;
+	padding-left:5px;
+}
+.day,
+.empty-slot,
+.week-day{
+	text-align:center;
+	height:40px;
+}
+.week-day{
+	font-size:0.8em;
+	color: #FFFFFF;
+	font-family: 'Montserrat', Montserrat-ExtraBold;
+	padding: 0px;
+}
+.day{
+	font-size:0.8em;
+	color: #0B3157;
+}
+.day{
+	cursor:pointer;
+	width:24px;
+	height:24px;
+	line-height: 24px;
+	font-family: 'Montserrat', Montserrat-Regular;
+	font-weight: 600;
+}
+.current-day{
+	background-color: #0B3157;
+	width:28px;
+	height:28px;
+	line-height: 28px;
+	border-radius:15%;
+	color:white;
+}
+.month-popup{
+	position:absolute;
+	background-color:rgba(11, 49, 87, 0.8);
+	color:#fff;
+	padding:5px;
+	border-radius:3%;
+}
+.month-popup div{
+	padding:0.3em;
+}
+.nav-month-next{
+	position:absolute;
+	top:7.8em;
+	font-size:8pt;
+	right:10px;
+	font-family:'Montserrat', Montserrat-Bold;
+	color:#48C1C2;
+	font-weight:700;
+	cursor:pointer;
+}
+.nav-month-prev{
+	position:absolute;
+	top:7.8em;
+	font-size:8pt;
+	left:20px;
+	font-family:'Montserrat', Montserrat-Bold;
+	color:#48C1C2;
+	font-weight:700;
+	cursor:pointer;
+}
+.weekdays{
+	background-color: #0B3157;
+}
+.editor-year{
+	max-width:3.6em;
+}
+.label-month,
+.label-year{
+	font-size:12pt;
+	font-family: 'Montserrat', Montserrat-ExtraBold;
+	font-weight:900;
+	color:#FFFFFF;
+}
+.label-month{
+	cursor:pointer;
+	padding-right: 10px;
+	text-transform:uppercase;
+}
+.label-year{
+	margin-right: 10px;
+}
+ .blackiconcolor {
+	 color:#48C1C2;
+}
+.blackiconcolorYe{
+	 color:#E6EAEE;
+}
+.label-event{
+	position:absolute;
+	top:0.3em;
+	right: 18px;
+	padding: 4px 8px 3px 3px;
+}
+.calendar-header{
+	height: 70px;
+}
+.week-popup{
+	position:absolute;
+	background-color:rgba(11, 49, 87, 0.8);
+	color:red;
+	padding:25px;
+	border-radius:3%;
+}
+.week-popup div{
+	padding:0.3em;
+}
+.events{
+	font-family:'Montserrat', Montserrat-Bold;
+	color:#fff;
+	background-color: #48C1C2;
+}
+.event{
+	font-family:'Montserrat', Montserrat-Bold;
+	color:#fff;
+	background-color: #48C1C2;
+}
+.stil{
+	margin:7px;;
+	width: 270px;
+	height: 45px;
+	background-color: #45B4B7;
+	border-radius:2%;
+	text-align: left;
+	padding-left: 5px;
+}
+.note{
+	padding: 5px;
+	background-color: azure;
+	color: #0B3157;
+	font-weight:500;
+	text-align: center;
+}
+.main-event{
+	background-color: azure;
+	color: #fff;
+	font-weight:500;
+	text-align: left;
+}
+.data{
+	font-family:'Montserrat', Montserrat-Bold;
+	font-weight:900;
+	text-transform:uppercase;
+	padding: 15px 15px 15px 15px;
+	text-align: left;
+	background-color: azure;
+	color:#0B3157;
+}
+.fa, .fas {
+    font-weight: 600;
+	height:1px;
+}
+#close{
+	display: none;
+}
+#list{
+	display: none;
+	position:absolute;
+	background-color:  #0B3157;
+	border-radius:3%;
+	width: 200px;
+	height: 40px;
+	padding-left: 10px;
+	margin-left: 25px;
+}
+button{
+	font-family:'Montserrat', Montserrat-Bold;
+    margin-left: 5px;
+	background-color: #0B3157;
+	color:#E8E9EB;
+	border-radius: 10px;
+}
+#MainWeekElement{
+	display: none;
+	background-color: azure;
+}
+#MainElement{
+	background-color: azure;
+}
